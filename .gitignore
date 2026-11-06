@@ -1,0 +1,27 @@
+# Secrets: never commit keys or passwords
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+sentinelenv/
+
+# Data: the dataset is large and must not be published
+sentinel_data/
+*.csv
+*.csv.gz
+*.parquet
+*.jsonl
+*.jsonl.gz
+*.zip
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
