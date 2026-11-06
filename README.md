@@ -64,7 +64,7 @@ sentinel-data-processing/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/<your-username>/sentinel-data-processing.git
+   git clone https://github.com/mrunalini-gudi/sentinel-data-processing.git
    cd sentinel-data-processing
    ```
 
